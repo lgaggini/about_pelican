@@ -2,14 +2,14 @@
 <html lang="{{ DEFAULT_LANG }}">
 <head>
         {% block head %}
-        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <title>{% block title %}{{ SITENAME }} - {{ SLOGAN }}{% endblock title %}</title>
         <meta charset="utf-8" />
         <!-- CSS Reset -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
         <!-- Custom Style -->
-        <link rel="stylesheet" href="../static/css/style.css" type="text/css">
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css">
         <!-- Custom a(social) icon by Fontello) -->
-        <link rel="stylesheet" href="../static/css/asocial.css" type="text/css">
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/asocial.css" type="text/css">
         {% endblock head %}
 </head>
 
