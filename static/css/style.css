@@ -1,0 +1,132 @@
+body {
+    overflow: auto;
+    margin: 0;
+    height: 100%;
+    background: url(../images/bgs/body.png) repeat;
+    background-color: rgb(43, 43, 43);
+    color: rgb(170, 170, 170);
+    font-family: Oxygen, sans-serif
+    font-size: 1em;
+    line-height: 1.3em;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main {
+    flex: 1 0 auto;
+    background-image: url('https://c7.staticflickr.com/3/2859/9644124822_1ddfceaf69_b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 67%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+}
+
+.quote {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    font-size: 2.2em;
+    color: white;
+    line-height: 1em;
+}
+
+.sidebar {
+    width: 33%;
+    flex: 1 0 300px;
+    overflow: auto;
+    height: 100vh;
+    text-align: right;
+    background-color: rgba(0,0,0,0.3);
+    position: relative;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    border-left: 1px rgba(0,0,0,0.7) solid;
+    border-top: 1px rgba(0,0,0,0.7) solid;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.media {
+  margin: 1.5em;
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-figure {
+  margin: 1em;
+  border-radius: 5px;
+  border-color: rgb(200, 200, 200);
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 5px 0px;
+}
+
+.media-body {
+  flex: 1;
+  margin-right: 1em;
+}
+
+.asocial {
+    margin-top: 1em;
+}
+
+.story {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: justify;
+}
+
+.interests {
+    margin: 2em;
+    text-align: center;
+    justify-content: center; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-rendering: optimizelegibility;
+    color: #999;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+.footer {
+    margin-top: 3em;
+    display: flex;
+    flex: 1;
+    align-items: flex-end; 
+    justify-content: center; 
+    font-size: 0.6em;
+}
+
+hr {
+    margin: 2em;
+    border: 0;
+    background: rgba(0,0,0,0.7);
+    height: 1px;
+}
+
+a {
+    color:rgb(76, 180, 232);
+    text-decoration: none;
+}
+
+.media-body a {
+    color: rgb(170, 170, 170);
+    font-size: 1.3em;
+}
