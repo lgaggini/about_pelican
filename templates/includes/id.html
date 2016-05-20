@@ -1,18 +1,37 @@
 <!-- gravatar -->
-<img class="media-figure" src="https://secure.gravatar.com/avatar/2a9d38eb7cf351593a174e34ef32e9ad" alt="">
+{% if GRAVATAR %}
+    <img class="media-figure" title="{{ AUTHOR }}" src="{{ GRAVATAR }}" alt="">
+{% endif %}
 <!-- short story -->
 <div class="media-body">
-   <h3>Lorenzo Gaggini</h3>
-   <h4>Free as in freedom</h4>
-   <h5>Sysadmin / Rider / Deejay in Tuscany, Italy</h5>
-   <div class="asocial">
-       <a href="" class="icon-blog" title="blog"></a>
-       <a href="https://github.com/lgaggini" class="icon-github" title="github"></a>
-       <a href="https://stackexchange.com/users/1836924/lgaggini?tab=accounts" class="icon-stack" title="stackexchange"></a>
-       <a href="http://careers.stackoverflow.com/lgaggini" class="icon-careers" title="careers"></a>
-       <a href="" class="icon-email" title="email"></a>
-       <a href="" class="icon-house-mixes" title="house-mixes"></a>
-       <a href="" class="icon-mixcloud" title="mixcloud"></a>
+    <h3>{{ AUTHOR }}</h3>
+    <h4>{{ SLOGAN }}</h4>
+    <h5>{{ WHAT_WHERE }}</h5>
+    <div class="asocial">
+        {% if BLOG_URL %}
+            <a href="{{ BLOG_URL }}" class="icon-blog" title="blog"></a>
+        {%endif %}
+        {% if SOCIAL_GITHUB %}
+            <a href="{{ SOCIAL_GITHUB }}" class="icon-github" title="github"></a>
+        {%endif %}
+        {% if SOCIAL_STACKEXCHANGE %}
+            <a href="{{ SOCIAL_STACKEXCHANGE }}" class="icon-stack" title="stackexchange"></a>
+        {%endif %}
+        {% if SOCIAL_CV %}
+            <a href="{{ SOCIAL_CV }}" class="icon-careers" title="curriculum"></a>
+        {%endif %}
+        {% if SOCIAL_EMAIL %}
+            <a href="mailto:{{ SOCIAL_EMAIL }}" class="icon-email" title="email"></a>
+        {%endif %}
+        {% if SOCIAL_PGP %}
+            <a href="{{ SOCIAL_PGP }}" class="icon-lock" title="pgp public key"></a>
+        {% endif %}
+        {% if SOCIAL_HOUSEMIXES %}
+            <a href="{{ SOCIAL_HOUSEMIXES }}" class="icon-house-mixes" title="house-mixes"></a>
+        {%endif %}
+        {% if SOCIAL_MIXCLOUD %}
+            <a href="{{ SOCIAL_MIXCLOUD }}" class="icon-mixcloud" title="mixcloud"></a>
+        {%endif %}
    </div>
 </div>
 
