@@ -22,9 +22,15 @@
            </div>
        </div>
        <!-- text content on the right -->
-       <div class="sidebar">
-           {% include 'includes/sidebar.html' %}
-       </div>
+        <div class="sidebar">
+           {% include 'includes/sidebar_head.html' %}
+            <!-- long story -->
+            <div class="story">
+                {% block content %}
+                {% endblock %}
+            </div>
+           {% include 'includes/sidebar_foot.html' %}
+        </div>
     </div>
 </body>
 </html>
