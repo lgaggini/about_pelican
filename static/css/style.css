@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro);
+
 body {
     overflow: auto;
     margin: 0;
@@ -99,6 +102,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #999;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
+    font-family: 'Advent Pro',sans-serif;
 }
 
 h1, h2, h3 {
@@ -129,4 +133,8 @@ a {
 .media-body a {
     color: rgb(170, 170, 170);
     font-size: 1.3em;
+}
+
+cite {
+    font-family: 'Advent Pro',sans-serif;
 }
