@@ -4,6 +4,12 @@
         {% block head %}
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
         <meta charset="utf-8" />
+        <!-- CSS Reset -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+        <!-- Custom Style -->
+        <link rel="stylesheet" href="../static/css/style.css" type="text/css">
+        <!-- Custom a(social) icon by Fontello) -->
+        <link rel="stylesheet" href="../static/css/asocial.css" type="text/css">
         {% endblock head %}
 </head>
 
@@ -12,7 +18,7 @@
        <!-- main image on the left -->
        <div class="main">
            <div class="quote">
-               <cite>Of all the paths you take in life,<br> make sure few of them are dirt.<br> (John Muir)</cite>
+               <cite>{{ QUOTE }}</cite>
            </div>
        </div>
        <!-- text content on the right -->
