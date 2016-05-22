@@ -12,7 +12,32 @@ Then:
 
 Point the `THEME` variable in your `pelicanconf.py` to `/path/to/about_pelican`
 
-## Usage (wip)
+## Usage
+
+about_pelican uses the following variables:
+
+### Info for sidebar top media object (strings)
+* `GRAVATAR`
+* `AUTHOR` 
+* `SLOGAN`
+* `WHAT_WHERE
+
+### (A)social links (strings)
+* `BLOG_URL`
+* `SOCIAL_GITHUB`
+* `SOCIAL_STACKEXCHANGE`
+* `SOCIAL_CV`
+* `SOCIAL_EMAIL`
+* `SOCIAL_PGP`
+* `SOCIAL_HOUSEMIXES`
+* `SOCIAL_MIXCLOUD`
+
+### Hash tags for map on sidebar bottom (a list of strings)
+* `HASH_TAGS`
+
+### Quote to show in the top left (a string)
+*`QUOTE`
+
 
 ## Screenshot (wip)
 
