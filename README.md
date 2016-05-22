@@ -36,7 +36,7 @@ about_pelican uses the following variables:
 * `HASH_TAGS`
 
 #### Quote to show in the top left (a string)
-*`QUOTE`
+* `QUOTE`
 
 
 ## Screenshot (wip)
