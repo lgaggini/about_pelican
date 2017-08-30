@@ -20,7 +20,7 @@ about_pelican uses the following variables:
 * `GRAVATAR`
 * `AUTHOR` 
 * `SLOGAN`
-* `WHAT_WHERE
+* `WHAT_WHERE`
 
 #### (A)social links (strings)
 * `BLOG_URL`
@@ -32,7 +32,7 @@ about_pelican uses the following variables:
 * `SOCIAL_HOUSEMIXES`
 * `SOCIAL_MIXCLOUD`
 
-#### Hash tags for map on sidebar bottom (a list of strings)
+#### Hash tags for map on sidebar bottom (a list of strings, e.g. ['tags1', 'tags2', 'tags3'])
 * `HASH_TAGS`
 
 #### Quote to show in the top left (a string)
