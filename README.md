@@ -31,6 +31,8 @@ about_pelican uses the following variables:
 * `SOCIAL_PGP`
 * `SOCIAL_HOUSEMIXES`
 * `SOCIAL_MIXCLOUD`
+* `SOCIAL_FACEBOOK`
+* `SOCIAL_YOUTUBE`
 
 #### Hash tags for map on sidebar bottom (a list of strings, e.g. ['tags1', 'tags2', 'tags3'])
 * `HASH_TAGS`
