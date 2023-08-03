@@ -29,8 +29,8 @@ about_pelican uses the following variables:
 * `SOCIAL_CV`
 * `SOCIAL_EMAIL`
 * `SOCIAL_PGP`
-* `SOCIAL_HOUSEMIXES`
 * `SOCIAL_MIXCLOUD`
+* `SOCIAL_SOUNDCLOUD`
 * `SOCIAL_BGG`
 * `SOCIAL_FACEBOOK`
 * `SOCIAL_YOUTUBE`
